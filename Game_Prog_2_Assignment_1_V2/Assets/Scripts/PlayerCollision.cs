@@ -66,7 +66,7 @@ public class PlayerCollision : MonoBehaviour
 
             if (gameManager.isGameOver) return;
 
-            if (hasTail)
+            if (hasTail == true)
             {
                 UpdateTailSegments();
             }
