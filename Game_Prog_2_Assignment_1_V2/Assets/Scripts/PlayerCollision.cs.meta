@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8a884bf2140733f4dab298f0be70e6bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameManager: {fileID: 6017679465925866244, guid: 93a51a5361030394e900e4953020e227, type: 3}
+  - tailPrefab: {fileID: 6559751223988497036, guid: 8f5f4b218c4e498418e8606fc40d0767, type: 3}
+  - tailParent: {fileID: 8891426312573514140, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
+  - playerCollider: {fileID: 220268189447295148, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
+  - playerMovement: {fileID: 5573480093944115574, guid: 76ddf70cef00d424b816ca4b00e4fe2f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

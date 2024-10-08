@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 227ddcf4aaf4da14f8d2a73ff835e815
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerCollision: {fileID: 1761968893847187246, guid: adb7836561e912141a19eeaf04b3ea5c, type: 3}
+  - rb: {fileID: 2081275600256084406, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
+  - goalGameObject: {fileID: 1672780299042149477, guid: ff4d4b5aaeb002e40b27be75f7e1bed5, type: 3}
+  - arenaGameObject: {fileID: 2519157724284723502, guid: ec9d9af6d549b8840985975a920ccf7d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

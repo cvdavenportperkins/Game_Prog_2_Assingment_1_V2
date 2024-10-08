@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3a3c6779e99f8434c966b2690d4a2af1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreText: {fileID: 1760345077752288422, guid: 66a5673773decb24a88fe9377c669d3c, type: 3}
+  - gameOverText: {fileID: 7010137044526677335, guid: fa66ca0e03253824b88596c73fd5f1e1, type: 3}
+  - youWinText: {fileID: 6547943294554018612, guid: 7f8fdf8d8941c904f9930b6185c96a82, type: 3}
+  - timerText: {fileID: 916688093559925723, guid: 53d85d43e9fec4149a4d7bdf7cb624e5, type: 3}
+  - foodPrefab: {fileID: 663394854516424982, guid: 2433edb9848a51c459337b10712e24f0, type: 3}
+  - arena: {fileID: 6559751223988497036, guid: 8f5f4b218c4e498418e8606fc40d0767, type: 3}
+  - arenaCollider: {fileID: 2363310789913799467, guid: ec9d9af6d549b8840985975a920ccf7d, type: 3}
+  - playerPrefab: {fileID: 5800403356466536936, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
+  - tailSegmentPrefab: {fileID: 6559751223988497036, guid: 8f5f4b218c4e498418e8606fc40d0767, type: 3}
+  - goalGameObject: {fileID: 1672780299042149477, guid: ff4d4b5aaeb002e40b27be75f7e1bed5, type: 3}
+  - playerMovement: {fileID: 5573480093944115574, guid: 76ddf70cef00d424b816ca4b00e4fe2f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
