@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject goalGameObject;
     public GameObject arenaGameObject;
     
-    private Vector2 arenaCenter;
-    private float arenaRadius;
+    public Vector2 arenaCenter;
+    public float arenaRadius;
 
     
     public void InitializePlayer()

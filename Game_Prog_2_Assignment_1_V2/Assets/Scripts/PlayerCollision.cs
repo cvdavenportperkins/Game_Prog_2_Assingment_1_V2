@@ -11,8 +11,8 @@ public class PlayerCollision : MonoBehaviour
         public float bounceBackDistance = 3f;
         public bool hasTail = false;
         public CircleCollider2D playerCollider;
-        private Rigidbody2D rb;
-        private Vector2 direction;
+        public Rigidbody2D rb;
+        public Vector2 direction;
 
         public List<GameObject> tailSegments = new List<GameObject>();
         public PlayerMovement playerMovement;
