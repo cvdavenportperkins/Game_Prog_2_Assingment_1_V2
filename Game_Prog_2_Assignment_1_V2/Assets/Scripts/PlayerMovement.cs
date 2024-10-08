@@ -98,7 +98,7 @@ void Start()
 
         if (playerCollision.hasTail == true)
         {
-            moveSpeed = 0.12f;
+            moveSpeed = 0.12f * Time.deltaTime;
         }
     
     }

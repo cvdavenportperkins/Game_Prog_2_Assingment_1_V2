@@ -199,6 +199,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 683960440}
     m_Modifications:
+    - target: {fileID: 224042876290921320, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12
+      objectReference: {fileID: 0}
     - target: {fileID: 1258554194486685150, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
       propertyPath: goalGameObject
       value: 
@@ -257,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8891426312573514140, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8891426312573514140, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1252,8 +1256,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1183314496}
   - component: {fileID: 1183314495}
+  - component: {fileID: 1183314498}
   m_Layer: 0
-  m_Name: PlayerMoverment
+  m_Name: PlayerMovement
   m_TagString: PlayerMovement
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1275,7 +1280,7 @@ MonoBehaviour:
   acceleration: 0.01
   deceleration: 0.01
   vel: {x: 0, y: 0}
-  playerCollision: {fileID: 6335537612076475845, guid: 44e36748008f57d44952d7be89a9472f, type: 3}
+  playerCollision: {fileID: 700990069}
   rb: {fileID: 1633367863}
   maxSpeed: 0.12
   goalGameObject: {fileID: 833865843}
@@ -1297,6 +1302,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1183314498
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183314494}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1344333387
 GameObject:
   m_ObjectHideFlags: 0
